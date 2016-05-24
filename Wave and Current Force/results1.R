@@ -6,7 +6,8 @@ library(dplyr)
 
 
 ## Set the working directory and read the data
-setwd("W:/Active Projects/1608 - Tetra Hedron Mooring Workability/05 Engineering/054 Analysis/Sorted Results/Plots/")
+setwd("GitHub for R/Wave and Current Force/")
+# setwd("W:/Active Projects/1608 - Tetra Hedron Mooring Workability/05 Engineering/054 Analysis/Sorted Results/Plots/")
 df <- read.csv("Hedron and Arapaho Forces.csv", header = TRUE, sep = ",")
 
 
